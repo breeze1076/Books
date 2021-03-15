@@ -1,0 +1,35 @@
+﻿@model Books.Models.Book
+
+@{
+    ViewData["Title"] = "Delete Book";
+}
+
+<div class="p-3">
+    <h4>Delete Book</h4>
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-1">
+                @Html.DisplayNameFor(model => model.Id):
+            </dt>
+            <dd class="col-sm-11">
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+            <dt class="col-sm-1">
+                @Html.DisplayNameFor(model => model.Name):
+            </dt>
+            <dd class="col-sm-11">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+        </dl>
+        <form asp-action="Delete">
+            <h5>Are you sure?</h5>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>

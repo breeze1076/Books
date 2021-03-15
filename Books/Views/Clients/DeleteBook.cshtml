@@ -1,0 +1,37 @@
+﻿@model Tuple<Books.Models.Client, Books.Models.Book>
+
+@{
+    ViewData["Title"] = "Delete Book";
+}
+
+<div class="p-3">
+    <h4>Client</h4>
+    <div>@Html.DisplayFor(model => model.Item1.Name)</div>
+    <hr />
+    <div>
+        <h4>Delete Book</h4>
+        <dl class="row">
+            <dt class="col-sm-1">
+                @Html.DisplayNameFor(model => model.Item2.Id):
+            </dt>
+            <dd class="col-sm-11">
+                @Html.DisplayFor(model => model.Item2.Id)
+            </dd>
+            <dt class="col-sm-1">
+                @Html.DisplayNameFor(model => model.Item2.Name):
+            </dt>
+            <dd class="col-sm-11">
+                @Html.DisplayFor(model => model.Item2.Name)
+            </dd>
+        </dl>
+        <form asp-action="DeleteBook">
+            <h5>Are you sure?</h5>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+    <div>
+        <a asp-action="Details" asp-route-id="@Model.Item1.Id">Back to Client</a>
+    </div>
+</div>

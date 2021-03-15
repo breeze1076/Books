@@ -1,0 +1,10 @@
+C:\repos\Books\Books\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\repos\Books\Books\bin\Debug\netcoreapp3.0\appsettings.json
+C:\repos\Books\Books\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\repos\Books\Books\bin\Debug\netcoreapp3.0\Books.exe
+C:\repos\Books\Books\obj\Debug\netcoreapp3.0\Books.csprojAssemblyReference.cache
+C:\repos\Books\Books\obj\Debug\netcoreapp3.0\staticwebassets\Books.StaticWebAssets.Manifest.cache
+C:\repos\Books\Books\obj\Debug\netcoreapp3.0\staticwebassets\Books.StaticWebAssets.xml
+C:\repos\Books\Books\obj\Debug\netcoreapp3.0\Books.AssemblyInfoInputs.cache
+C:\repos\Books\Books\obj\Debug\netcoreapp3.0\Books.AssemblyInfo.cs
+C:\repos\Books\Books\obj\Debug\netcoreapp3.0\Books.RazorTargetAssemblyInfo.cache

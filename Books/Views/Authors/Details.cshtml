@@ -1,0 +1,41 @@
+﻿@model Books.Models.Author
+
+@{
+    ViewData["Title"] = "Author";
+}
+
+<div class="p-3">
+    <h4>Author</h4>
+    <div>@Html.DisplayFor(model => model.Name)</div>
+    <hr />
+    <div>
+        <table class="table">
+            <thead class="table-borderless">
+                <tr class="d-flex align-items-center">
+                    <td class="align-middle pl-0 col-5">
+                        <h4>Has @(Model.Books.Count == 0 ? "no " : string.Empty)books</h4>
+                    </td>
+                    <td class="align-bottom col-7">
+                        <a asp-action="AddBook" asp-route-id="@Model.Id">Add Book</a>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Books)
+                {
+                    <tr class="d-flex">
+                        <td class="pl-0 col-5">
+                            @item.Name
+                        </td>
+                        <td class="col-7">
+                            <a asp-action="DeleteBook" asp-route-id="@Model.Id" asp-route-bookId="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>

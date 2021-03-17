@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
@@ -20,11 +19,11 @@ namespace Books.Infrastructure.Middleware
             _logger = logger;
         }
 
-        public async Task Invoke(HttpContext context, IOptionsSnapshot<LoggingMiddlewareOptions> options, ExecutionContext executionContext)
+        public async Task Invoke(HttpContext context, IOptionsSnapshot<LoggingMiddlewareOptions> options, LogScopeProvider logScopeProvider)
         {
             if (options.Value.LogRequests)
             {
-                var scope = new Dictionary<string, string> { { "RequestCode", context.TraceIdentifier } };
+                var scope = logScopeProvider.GetScope(context);
                 using (_logger.BeginScope(scope))
                 {
                     var path = context.Request.Path;
@@ -32,10 +31,10 @@ namespace Books.Infrastructure.Middleware
                     var queryString = context.Request.QueryString;
                     var body = await GetBodyFromRequestAsync(context.Request);
                     var headers = context.Request.Headers;
-                    _logger.LogInformation("{path}{@executionContext}", path, executionContext);
-                    _logger.LogInformation("{method}{@executionContext}", method, executionContext);
-                    _logger.LogInformation("{queryString}{@executionContext}", queryString, executionContext);
-                    _logger.LogInformation("{body}{@executionContext}", body, executionContext);
+                    _logger.LogInformation("{path}", path);
+                    _logger.LogInformation("{method}", method);
+                    _logger.LogInformation("{queryString}", queryString);
+                    _logger.LogInformation("{body}", body);
                 }
             }
             await _next(context);

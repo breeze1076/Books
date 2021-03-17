@@ -28,7 +28,7 @@ namespace Books
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddRepositories();
-            services.AddSingleton<ExecutionContext>();
+            services.AddSingleton<LogScopeProvider>();
             services.Configure<LoggingMiddlewareOptions>(Configuration.GetSection(LoggingMiddlewareOptions.LoggingMiddleware));
         }
 

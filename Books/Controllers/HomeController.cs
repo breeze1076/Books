@@ -9,6 +9,7 @@ namespace Books.Controllers
     {
         public IActionResult Index()
         {
+            //Exception to test logging
             //throw new DivideByZeroException("Division by zero");
             return View();
         }

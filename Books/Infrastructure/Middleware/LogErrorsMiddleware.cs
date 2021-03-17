@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Net;
 using System.Threading.Tasks;
-using Books.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
@@ -19,7 +17,7 @@ namespace Books.Infrastructure.Middleware
             _logger = logger;
         }
 
-        public async Task Invoke(HttpContext context, ExecutionContext executionContext)
+        public async Task Invoke(HttpContext context, LogScopeProvider logScopeProvider)
         {
             try
             {
@@ -27,24 +25,15 @@ namespace Books.Infrastructure.Middleware
             }
             catch (Exception e)
             {
-                _logger.LogError("{errorMessage}{stackTrace}{@executionContext}", e.Message, e.StackTrace, executionContext);
+                var scope = logScopeProvider.GetScope(context);
+                using (_logger.BeginScope(scope))
+                {
+                    _logger.LogError("{errorMessage}{stackTrace}", e.Message, e.StackTrace);
+                }
                 throw;
             }
 
         }
-
-        /*
-        private Task HandleExceptionAsync(HttpContext context, Exception exception)
-        {
-            context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-            return context.Response.WriteAsync(new ErrorDetails()
-            {
-                StatusCode = context.Response.StatusCode,
-                Message = "Internal Server Error from the custom middleware."
-            }.ToString());
-        }
-        */
     }
 
     public static class LogErrorsMiddlewareExtension

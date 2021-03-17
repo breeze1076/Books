@@ -1,0 +1,48 @@
+{ "time": "2021-03-17 13:40:32.0605", "level": "INFO", "address": "https:\/\/localhost:5001" }
+{ "time": "2021-03-17 13:40:32.0605", "level": "INFO", "address": "https:\/\/localhost:5001" }
+{ "time": "2021-03-17 13:40:32.1050", "level": "INFO", "address": "http:\/\/localhost:5000" }
+{ "time": "2021-03-17 13:40:32.1050", "level": "INFO", "address": "http:\/\/localhost:5000" }
+{ "time": "2021-03-17 13:40:32.1156", "level": "INFO" }
+{ "time": "2021-03-17 13:40:32.1156", "level": "INFO" }
+{ "time": "2021-03-17 13:40:32.1283", "level": "INFO", "envName": "Development" }
+{ "time": "2021-03-17 13:40:32.1283", "level": "INFO", "envName": "Development" }
+{ "time": "2021-03-17 13:40:32.1445", "level": "INFO", "contentRoot": "C:\\repos\\Books\\Books" }
+{ "time": "2021-03-17 13:40:32.1445", "level": "INFO", "contentRoot": "C:\\repos\\Books\\Books" }
+{ "time": "2021-03-17 13:40:32.6241", "level": "INFO", "requestCode": "0HM7975SC527H:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "9", "path": "\/" }
+{ "time": "2021-03-17 13:40:32.6241", "level": "INFO", "requestCode": "0HM7975SC527H:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "9", "method": "GET" }
+{ "time": "2021-03-17 13:40:32.6385", "level": "INFO", "requestCode": "0HM7975SC527H:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "9", "queryString": "" }
+{ "time": "2021-03-17 13:40:32.6385", "level": "INFO", "requestCode": "0HM7975SC527H:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "9", "body": "" }
+{ "time": "2021-03-17 13:40:41.1947", "level": "INFO", "requestCode": "0HM7975SC527H:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "10", "path": "\/Books" }
+{ "time": "2021-03-17 13:40:41.1947", "level": "INFO", "requestCode": "0HM7975SC527H:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "10", "method": "GET" }
+{ "time": "2021-03-17 13:40:41.2055", "level": "INFO", "requestCode": "0HM7975SC527H:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "10", "queryString": "" }
+{ "time": "2021-03-17 13:40:41.2055", "level": "INFO", "requestCode": "0HM7975SC527H:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "10", "body": "" }
+{ "time": "2021-03-17 13:40:43.0212", "level": "INFO", "requestCode": "0HM7975SC527H:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "8", "path": "\/Clients" }
+{ "time": "2021-03-17 13:40:43.0212", "level": "INFO", "requestCode": "0HM7975SC527H:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "8", "method": "GET" }
+{ "time": "2021-03-17 13:40:43.0333", "level": "INFO", "requestCode": "0HM7975SC527H:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "8", "queryString": "" }
+{ "time": "2021-03-17 13:40:43.0333", "level": "INFO", "requestCode": "0HM7975SC527H:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "8", "body": "" }
+{ "time": "2021-03-17 13:40:44.7287", "level": "INFO", "requestCode": "0HM7975SC527H:00000007", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "12", "path": "\/Authors" }
+{ "time": "2021-03-17 13:40:44.7354", "level": "INFO", "requestCode": "0HM7975SC527H:00000007", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "12", "method": "GET" }
+{ "time": "2021-03-17 13:40:44.7354", "level": "INFO", "requestCode": "0HM7975SC527H:00000007", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "12", "queryString": "" }
+{ "time": "2021-03-17 13:40:44.7482", "level": "INFO", "requestCode": "0HM7975SC527H:00000007", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "12", "body": "" }
+{ "time": "2021-03-17 13:41:11.8154", "level": "INFO", "address": "https:\/\/localhost:5001" }
+{ "time": "2021-03-17 13:41:11.8154", "level": "INFO", "address": "https:\/\/localhost:5001" }
+{ "time": "2021-03-17 13:41:11.8581", "level": "INFO", "address": "http:\/\/localhost:5000" }
+{ "time": "2021-03-17 13:41:11.8581", "level": "INFO", "address": "http:\/\/localhost:5000" }
+{ "time": "2021-03-17 13:41:11.8581", "level": "INFO" }
+{ "time": "2021-03-17 13:41:11.8581", "level": "INFO" }
+{ "time": "2021-03-17 13:41:11.8804", "level": "INFO", "envName": "Development" }
+{ "time": "2021-03-17 13:41:11.8804", "level": "INFO", "envName": "Development" }
+{ "time": "2021-03-17 13:41:11.8913", "level": "INFO", "contentRoot": "C:\\repos\\Books\\Books" }
+{ "time": "2021-03-17 13:41:11.8913", "level": "INFO", "contentRoot": "C:\\repos\\Books\\Books" }
+{ "time": "2021-03-17 13:41:12.4833", "level": "INFO", "requestCode": "0HM797687QAJK:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "4", "path": "\/" }
+{ "time": "2021-03-17 13:41:12.4833", "level": "INFO", "requestCode": "0HM797687QAJK:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "4", "method": "GET" }
+{ "time": "2021-03-17 13:41:12.4996", "level": "INFO", "requestCode": "0HM797687QAJK:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "4", "queryString": "" }
+{ "time": "2021-03-17 13:41:12.4996", "level": "INFO", "requestCode": "0HM797687QAJK:00000001", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "4", "body": "" }
+{ "time": "2021-03-17 13:41:13.8461", "level": "INFO", "requestCode": "0HM797687QAJK:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "13", "path": "\/Authors" }
+{ "time": "2021-03-17 13:41:13.8461", "level": "INFO", "requestCode": "0HM797687QAJK:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "13", "method": "GET" }
+{ "time": "2021-03-17 13:41:13.8577", "level": "INFO", "requestCode": "0HM797687QAJK:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "13", "queryString": "" }
+{ "time": "2021-03-17 13:41:13.8577", "level": "INFO", "requestCode": "0HM797687QAJK:00000003", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "13", "body": "" }
+{ "time": "2021-03-17 13:41:15.7454", "level": "INFO", "requestCode": "0HM797687QAJK:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "15", "path": "\/Books" }
+{ "time": "2021-03-17 13:41:15.7531", "level": "INFO", "requestCode": "0HM797687QAJK:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "15", "method": "GET" }
+{ "time": "2021-03-17 13:41:15.7531", "level": "INFO", "requestCode": "0HM797687QAJK:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "15", "queryString": "" }
+{ "time": "2021-03-17 13:41:15.7679", "level": "INFO", "requestCode": "0HM797687QAJK:00000005", "applicationName": "Books", "machineName": "DESKTOP-LTSGV3M", "environmentName": "Development", "threadId": "15", "body": "" }

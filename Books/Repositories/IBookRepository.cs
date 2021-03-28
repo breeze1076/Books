@@ -11,5 +11,6 @@ namespace Books.Repositories
         Task CreateBookAsync(Book book);
         Task UpdateBookAsync(Book book);
         Task DeleteBookAsync(int id);
+        bool BookNameExists(Book book);
     }
 }

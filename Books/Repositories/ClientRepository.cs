@@ -82,5 +82,15 @@ namespace Books.Repositories
                 await _dbContext.SaveChangesAsync();
             }
         }
+
+        public bool ClientNameExists(Client client)
+        {
+            if (client == null)
+            {
+                throw new ArgumentNullException($"Parameter {nameof(client)} must not be null");
+            }
+            var existingClient = _dbContext.Client.FirstOrDefault(c => c.Name == client.Name && c.Id != client.Id);
+            return existingClient != null;
+        }
     }
 }

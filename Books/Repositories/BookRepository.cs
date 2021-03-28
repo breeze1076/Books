@@ -59,5 +59,15 @@ namespace Books.Repositories
                 await _dbContext.SaveChangesAsync();
             }
         }
+
+        public bool BookNameExists(Book book)
+        {
+            if (book == null)
+            {
+                throw new ArgumentNullException($"Parameter {nameof(book)} must not be null");
+            }
+            var existingBook = _dbContext.Book.FirstOrDefault(b => b.Name == book.Name && b.Id != book.Id);
+            return existingBook != null;
+        }
     }
 }

@@ -13,5 +13,6 @@ namespace Books.Repositories
         Task DeleteClientAsync(int id);
         Task AddBookToClientAsync(int clientId, int bookId);
         Task DeleteBookFromClientAsync(int clientId, int bookId);
+        bool ClientNameExists(Client client);
     }
 }

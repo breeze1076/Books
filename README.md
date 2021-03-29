@@ -1,4 +1,4 @@
-Task Description:
+Task Description: 
 Using ASP.NET Core MVC create an app (.Net Core 3.1), that will have following functionality:
 3 tables:
 - Authors
@@ -26,6 +26,6 @@ Logging
 Dependency injection
 Controllers should be thin and not contain business logic.Thus, all services should be injected into constructor/action (use both approaches 5
 
-My notes:
+My notes: 
 !!! Path to the log files: ..\Books\bin\Debug\netcoreapp3.1\logs\{shortdate}.log
 
